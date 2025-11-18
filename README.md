@@ -4,23 +4,20 @@ A minimalist task management web application built with Flask and vanilla JavaSc
 
 ## Features
 
-- ✅ Create, read, update, and delete tasks
-- ✅ Mark tasks as complete/incomplete
-- ✅ Filter tasks (All, Active, Completed)
-- ✅ Real-time updates without page reloads
-- ✅ Minimalist corporate design
-- ✅ Responsive layout
-- ✅ RESTful API endpoints
+-  Create, read, update, and delete tasks
+-  Mark tasks as complete/incomplete
+-  Filter tasks (All, Active, Completed)
+
 
 ## Tech Stack
 
 **Backend:**
 - Flask (Python web framework)
 - SQLite (Database)
-- RESTful API design
+
 
 **Frontend:**
-- Vanilla JavaScript (ES6+)
+- Vanilla JavaScript 
 - HTML5
 - CSS3 (Custom styling)
 - Fetch API for async operations
@@ -78,15 +75,3 @@ flask-todo-app/
 | PUT | `/api/tasks/<id>` | Update a task |
 | DELETE | `/api/tasks/<id>` | Delete a task |
 | PATCH | `/api/tasks/<id>/toggle` | Toggle task completion |
-
-## Screenshots
-
-*Add screenshots of your application here*
-
-## License
-
-MIT License - feel free to use this project for learning or portfolio purposes.
-
-## Author
-
-Built as a demonstration of Flask and JavaScript skills.
